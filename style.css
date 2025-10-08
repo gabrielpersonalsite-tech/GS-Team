@@ -92,7 +92,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg-gabriel.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("assets/bg-gabriel.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -206,7 +206,7 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12px 14px;
+  padding: 54px 14px;
 }
 
 .services-content h2 {
@@ -214,7 +214,6 @@ i {
   text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
-  padding-top: 54px;
 }
 
 .services-content p {
