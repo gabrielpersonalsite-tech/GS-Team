@@ -197,28 +197,40 @@
   }
 }
 
+.botao-link{
+  text-decoration: none;
+  color: white;
+}
+
+  .nome-servico {
+    font-size: 0.95rem;
+  
+  }
+
 
 .haircut img:hover{
   transform: scale(1.2);
   z-index: 1;
 }
 
-.haircut-info{
+.haircut-info {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center; /* centraliza verticalmente */
+  gap: 4px; /* opcional: dá um espaçamento entre o texto e o botão */
   padding: 14px;
   background-color: $white-normal;
   z-index: 99;
 }
 
-.haircut-info button{
+.haircut-info button {
   color: $white-normal;
   background-color: $red-normal;
   padding: 4px 8px;
   border-radius: 4px;
-  border:0;
-  cursor: default;
+  border: 0;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
